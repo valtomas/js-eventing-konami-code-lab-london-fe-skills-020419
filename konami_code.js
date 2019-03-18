@@ -4,9 +4,10 @@ let konamiLenght = 0;
 
 // function init() {
 
-document.addEventListener('keydown', init(e)); 
+document.addEventListener('keydown', init()); 
 
 function init(e) {
+  
   let keypressed = parseInt (e.detail || e.which);
   
 if (code(konamiLenght) == keypressed ){
