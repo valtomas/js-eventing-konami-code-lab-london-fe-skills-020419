@@ -8,7 +8,11 @@ document.addEventListener('keydown', konamiCodeListener(e));
 
 function konamiCodeListener(e) {
   
+if (code(konamiLenght) == e ){
+  konamiLenght ++
+}
 
+if (code(konamiLenght) == code(length))
   
 }
 
