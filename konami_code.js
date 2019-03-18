@@ -4,8 +4,8 @@ let konamiLenght = 0;
 
 function init() {
 
-document.addEventListener('keydown', konamiCodeListener(e); {
-
+document.addEventListener('keydown', konamiCodeListener(e)); {
+ 
   
 }
 }
