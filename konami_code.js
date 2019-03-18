@@ -18,7 +18,7 @@ if (code[konamiLenght] === keypressed){
   konamiLenght ++;
 }
 
-if (konamiLenght === code.lenght ) {
+if (konamiLenght === code.length ) {
   
   alert("Hurray!"); 
   konamiLenght = 0;
