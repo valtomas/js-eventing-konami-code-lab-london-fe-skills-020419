@@ -8,7 +8,7 @@ document.addEventListener('keydown', init);
 
 function init(e) {
   
-let keypressed = e.which;
+let keypressed = parseInt(e.detail || e.which);
   
 if (code(konamiLenght) == keypressed){
   
