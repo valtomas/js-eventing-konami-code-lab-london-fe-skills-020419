@@ -11,7 +11,6 @@ function init(e) {
 let keypressed = parseInt(e.detail || e.which);
   
 if (code(konamiLenght) == keypressed){
-  
   konamiLenght ++;
 }
 
