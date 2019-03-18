@@ -12,7 +12,8 @@ function init() {
 function KonamiListener(e) {
   
 let keypressed = parseInt(e.detail || e.which);
-  
+console.log (keypressed);
+
 if (code(konamiLenght) === keypressed){
   konamiLenght ++;
 }
