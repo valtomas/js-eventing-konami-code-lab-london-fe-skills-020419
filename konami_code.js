@@ -10,7 +10,7 @@ function init(e) {
   
 let keypressed = e.which;
   
-if (code(konamiLenght) == keypressed ){
+if (code(konamiLenght) == keypressed){
   
   konamiLenght ++;
 }
