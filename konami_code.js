@@ -9,11 +9,13 @@ document.addEventListener('keydown', konamiCodeListener(e));
 function konamiCodeListener(e) {
   
 if (code(konamiLenght) == e ){
-  konamiLenght ++
+  
+  konamiLenght ++;
 }
 
-if (code(konamiLenght) == code.lenght ) {
-  activate
+if (code(konamiLenght) === code.lenght ) {
+  
+  alert("Hurray!") 
 }
   
 }
