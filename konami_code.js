@@ -4,7 +4,7 @@ let konamiLenght = 0;
 
 // function init() {
 
-document.addEventListener ('keydown', init(e)) {
+document.addEventListener ("keydown", function(e) {
 
   
 let keypressed = e.keyCode;
