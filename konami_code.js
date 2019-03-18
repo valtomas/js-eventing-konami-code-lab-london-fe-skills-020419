@@ -12,7 +12,9 @@ if (code(konamiLenght) == e ){
   konamiLenght ++
 }
 
-if (code(konamiLenght) == code(length))
+if (code(konamiLenght) == code.lenght ) {
+  activate
+}
   
 }
 
