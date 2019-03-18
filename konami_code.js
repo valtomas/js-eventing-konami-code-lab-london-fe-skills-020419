@@ -8,6 +8,7 @@ document.addEventListener('keydown', konamiCodeListener(e));
 
 function konamiCodeListener(e) {
   
+
   
 }
 
