@@ -4,7 +4,7 @@ let konamiLenght = 0;
 
 // function init() {
 
-document.addEventListener ("keydown", function(e) {
+document.addEventListener ("keydown", function(e)) {
 
   
 let keypressed = e.keyCode;
@@ -24,6 +24,5 @@ if (code(konamiLenght) === code.lenght ) {
 else {
   konamiLenght = 0;
   
-}
 }
 
